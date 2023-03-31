@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swap ERC20</title>
+</head>
+<body>
+    Hello
+        <script src="./get.js" type="text/javascript">
+        </script>
+        <script src="./index.js" type="module">
+        </script>
+    <button id="connectButton" > Connect</button>
+    <button id="mintButton1"> 获取SOLBYEX1</button>
+    <button id="mintButton2"> 获取SOLBYEX2</button>
+    <button id="getbalanceButton1">当前钱包拥有的SOLBYEX1的数量</button>
+    <button id="getbalanceButton2">当前钱包拥有的SOLBYEX2的数量</button>
+    <button id="allowanceButton1"> 当前钱包可以用来交换的SOLBYEX1数量</button>
+    <button id="allowanceButton2"> 当前钱包可以用来交换的SOLBYEX2数量</button>
+    <button id="approveButton1"> 申请可以用来交换SOLBYEX1的额度</button>
+    <button id="approveButton2"> 申请可以用来交换SOLBYEX2的额度</button>
+    <br></br>
+    <br></br>
+    <form id="add" method="get">
+      添加到池子里面的Token1的数量: <input type="text" name="num" id="numberid1"><br>
+      添加到池子里面的Token2的数量: <input type="text" name="numb" id="numberid2"><br>
+      <input type="button" id="addbutton" onclick="addFunction()" value="Submit">
+    </form>
+    <button id="addButton"> 点我添加流通性</button>
+    <br></br>
+    <button id="getreserve1">点我获得池子中SOLBYEX1的数量</button>
+    <br></br>
+    <button id="getreserve2">点我获得池子中SOLBYEX2的数量</button>
+    <br></br>
+    <br></br>
+    <form id="frm1" method="get">
+      用来交换的Token1的数量: <input type="text" name="number" id="numberid"><br>
+      <input type="button" id="getbutton" onclick="myFunction()" value="Submit">
+    </form>
+    <button id="exchangeButton"> 点我交换代币</button>
+    
+</body>
+</html>
